@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+    font-family: 'Poppins', sans-serif;
+    font-size: 62.8%;
+    --primary-color: #00a6fb;
+    --primary-color-dark: #0076b6;
+    --secondary-color: #e5383b;
+    --secondary-color-dark: #b8282b;
+    --light: #f4f7f8;
+    --dark: #202024;
+}
+
+body {
+    background-color: var(--light);
+    color: #202024;
+}
+
+.bar {
+    background-color: var(--primary-color);
+    padding-bottom: 10rem;
+    margin-bottom: 5rem;
+}
+
+main .text {
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+}
+
+main .text h1 {
+    font-size: 3rem;
+}
+
+main .text h2,
+main .tasks li {
+    font-size: 2rem;
+}
+
+.line {
+    background-color: var(--primary-color);
+    padding-bottom: 0.2rem;
+}
+
+main .register-task,
+main .tasks {
+    padding-bottom: 5rem;
+    margin-top: 5rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+main .tasks {
+    flex-direction: column;
+}
+
+main .register-task .input-task {
+    font-size: 1.5rem;
+    font-family: 'Poppins';
+    height: 4.2rem;
+    outline: 2px solid var(--primary-color);
+    border: none;
+    border-radius: 8px;
+    padding: 0 12px;
+}
+
+main .register-task .btn-add {
+    padding: 1rem 2rem;
+    color: #fff;
+    background-color: var(--primary-color);
+    border: none;
+    cursor: pointer;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 1.4rem;
+    border-radius: 8px;
+}
+
+main .register-task .btn-add:hover {
+    background-color: var(--primary-color-dark);
+}
+
+main .register-task .btn-add:active {
+    background-color: var(--primary-color);
+}
+
+.btn-delete {
+    margin-left: 1.6rem;
+    padding: 0.4rem 0.8rem;
+    color: var(--secondary-color);
+    background-color: var(--light);
+    outline: 1px solid var(--secondary-color);
+    border: none;
+    cursor: pointer;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 1.3rem;
+    border-radius: 5px;
+}
+
+.btn-delete:hover {
+    outline: 1px solid var(--secondary-color);
+    background-color: var(--secondary-color);
+    color: var(--light);
+}
+
+.btn-delete:active {
+    background-color: var(--secondary-color-dark);
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    padding: 5rem 0rem;
+}
+
+footer span {
+    font-size: 1.3rem;
+}
