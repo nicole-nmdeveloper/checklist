@@ -4,6 +4,12 @@ Um projeto feito em VanillaJS em que é possível criar uma lista de tarefas e s
 
 
 
+## 🎬 Vídeo
+
+https://github.com/nicole-nmdeveloper/checklist/assets/102914172/19f486f7-d198-4a48-9ef2-86463fbc6cfe
+
+
+
 ## ✨ Tecnologias 
 
 HTML, CSS e JavaScript
